@@ -20,6 +20,6 @@ jobs:
 
     steps:
       - name: Display Inputs
-      run:|
+      run: |
         echo "👤 Hello, ${{ github.event.inputs.username }}!"
         echo "🌍 Environment selected: ${{ github.event.inputs.environment }}"
